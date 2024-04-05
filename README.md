@@ -6,7 +6,7 @@ This repository demonstrates our exploration of Korean voice phishing detection,
 - Team name: **Doctor Phish**
 - **Jeonghoon Ko**: Yonsei University, major in Sociology, leader of team Dr. Phish
 - **Youngjin Son**: Korea University, major in Business, PM 
-- **Yunjeong Lee**: Korea University, major in Art and Design, UX/UI designer 
+- **Yunjung Lee**: Korea University, major in Art and Design, UX/UI designer 
 - **Hyeongjun Kim**: Yonsei University, major in artificial intelligence, Developer
 
 ## 📋 Datasets
