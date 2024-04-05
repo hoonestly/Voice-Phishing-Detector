@@ -2,7 +2,14 @@
 
 This repository demonstrates our exploration of Korean voice phishing detection, utilizing two distinct methodologies for enhanced accuracy and reliability. Initially developed using LSTM Model to harness their sequential data processing capabilities, our model achieved a foundational level of success in identifying voice phishing attempts. Recognizing the opportunity for enhancement, we transitioned to leveraging KoBERT, a model pre-trained on the Korean language. This strategic update significantly improved our system's ability to understand the complexities and nuances of Korean speech, offering a more accurate and reliable solution for detecting voice phishing scams.
 
-## Datasets
+## 👪 Teammates
+- Team name: **Doctor Phish**
+- **Jeonghoon Ko**: Yonsei University, major in Sociology, leader of team Dr. Phish
+- **Youngjin Son**: Korea University, major in Business, PM 
+- **Yunjeong Lee**: Korea University, major in Art and Design, UX/UI designer 
+- **Hyeongjun Kim**: Yonsei University, major in artificial intelligence, Developer
+
+## 📋 Datasets
 - stopword.txt: 
     - Preprocessed to remove stop words - https://www.ranks.nl/stopwords/korean
 - combined_dataset.csv
@@ -10,7 +17,7 @@ This repository demonstrates our exploration of Korean voice phishing detection,
     - 민원(콜센터) 질의-응답 데이터 (금융/보험). (2023). AI Hub. https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=98
     - 일상 대화 말뭉치 2022. (2022). 문화체육관광부 국립국어원 언어정보나눔 모두의 말뭉치. https://kli.korean.go.kr/corpus/main/requestMain.do?lang=ko
 
-## Model
+## 🖥 Model
 ### A. LSTM model
 
 -**Dataset used**: combined_data.csv <br>
@@ -30,7 +37,7 @@ This repository demonstrates our exploration of Korean voice phishing detection,
     accuracy          0.9955      0.9961  <br>
     loss              0.9892      1.0000  <br>
 
-## Result
+## 🔖 Result
 ### **Combined_dataset.csv - KoBERT**
 ``여보세요 네 안녕하세요 서울중앙지방검찰청 00부 담당 형사 000입니다. 000님 맞으십니까? 맞는데요 다름이 아니고 혹시 김00님을 아십니까? 지금 김00님이 경남은행에서 000님 명의로 대포통장을 개설하였습니다....``
 - 보이스피싱 : 0.99976
@@ -44,7 +51,7 @@ This repository demonstrates our exploration of Korean voice phishing detection,
 ``안녕하세요, 경찰서입니다. 어떻게 도와드릴까요? 안녕하세요, 제가 지금 길을 걷고 있는데요, 이상한 사람이 계속 따라오는 것 같아요. 알겠습니다. 현재 위치와 그 사람의 특징을 자세히 설명해주시...``
 - 일반대화 : 0.99978
 
-## Further Work
+## 💡 Further Work
 Using the OpenAI API with the GPT-3.5-turbo model, we have developed a feature that categorizes the type of voice-phishing if detected. If the text is classified as voice-phishing with a confidence level of 0.95 or higher, the system will categorize the type of voice-phishing and display a warning message
 
 ``여보세요 네 안녕하세요 서울중앙지방검찰청 00부 담당 형사 000입니다. 000님 맞으십니까? 맞는데요 다름이 아니고 혹시 김00님을 아십니까? 지금 김00님이 경남은행에서 000님 명의로 대포통장을 개설하였습니다....``
