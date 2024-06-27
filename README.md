@@ -76,3 +76,4 @@ Using the OpenAI API with the GPT-3.5-turbo model, we have developed a feature t
 [2] M. K. M. Boussougou, S. Jin, D. Chang, and D.-J. Park, “Korean Voice Phishing Text Classification Performance Analysis Using Machine Learning Techniques,” Proceedings of the Korea Information Processing Society Conference, pp. 297–299, Nov. 2021. <br>
 [3] M. K. M. Boussougou and D.-J. Park, “A Real-time Efficient Detection Technique of Voice Phishing with AI,” Proceedings of the Korean Institute of Information Scientists and Engineers Korea Computer Congress; Korean Institute of Information Scientists: Jeju, Republic of Korea, vol. 11, no. 10, pp. 768–770, June. 2021. <br>
 [4] M전동흔, “'보이스피싱' 줄었지만...건당 피해액은 증가”, YTN, 2024.02.25, https://www.youtube.com/watch?v=VXfGFU8jvCE
+[5] Jason Wei, Kai Zou. EDA: Easy Data Augmentation Techniques for Boosting Performance on Text Classification Tasks. 25 Aug 2019
